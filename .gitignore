@@ -1,0 +1,7 @@
+node_modules
+test.js
+tests/
+*.wasm
+examples
+!main.wasm
+.DS_Store

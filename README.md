@@ -8,9 +8,10 @@ The package is not published to npm yet. Install it straight from GitHub so it b
 
 ```bash
 pnpm add modulr-node-sdk@github:ModulrCloud/js-sdk
-# or
+```
+Or
+```bash
 npm install modulr-node-sdk@github:ModulrCloud/js-sdk
-
 ```
 
 ## Quick start

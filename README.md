@@ -7,27 +7,16 @@ A lightweight JavaScript wrapper around the Modulr node HTTP API. The SDK expose
 The package is not published to npm yet. Install it straight from GitHub so it becomes a normal dependency inside your project:
 
 ```bash
-pnpm add git+https://github.com/ModulrCloud/js-sdk.git
+pnpm add modulr-node-sdk@github:ModulrCloud/js-sdk
 # or
-npm install github:ModulrCloud/js-sdk
-```
+npm install modulr-node-sdk@github:ModulrCloud/js-sdk
 
-After installation the package name resolves to `js-sdk`, which matches the `name` field inside `package.json`.
-
-If you prefer to vendor the SDK manually, clone the repository and import `index.js` directly in your application:
-
-```bash
-git clone https://github.com/ModulrCloud/js-sdk.git
-```
-
-```js
-import ModulrSDK from './js-sdk/index.js'
 ```
 
 ## Quick start
 
 ```js
-import ModulrSDK from 'js-sdk'
+import ModulrSDK from 'modulr-node-sdk'
 
 const sdk = new ModulrSDK('https://your-node-hostname:port')
 

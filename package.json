@@ -12,7 +12,11 @@
   "license": "ISC",
   "packageManager": "pnpm@10.22.0",
    "dependencies": {
-    "base-58": "^0.0.1"
+    "@scure/bip32": "^2.0.1",
+    "@scure/bip39": "^2.0.1",
+    "base-58": "^0.0.1",
+    "bs58": "^6.0.0",
+    "tweetnacl": "^1.0.3"
   },
   "bugs": {
     "url": "https://github.com/ModulrCloud/js-sdk/issues"
